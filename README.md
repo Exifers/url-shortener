@@ -1,6 +1,6 @@
 ## Start the project
 ```
-pnpm i && pnpm migrate && pnpm start
+pnpm i && pnpm migrate && pnpm dev
 ```
 
 ## Endpoints
@@ -11,7 +11,7 @@ curl -i -H "Authorization: hi" -H "Content-Type:application/json" --data '{"url"
 
 - use a redirect
 ```
-curl localhost:8000/r/aaad
+curl -i localhost:8000/r/aaad
 ```
 
 - edit a short url
