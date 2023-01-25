@@ -7,8 +7,7 @@ export namespace Types {
     export type Url = z.infer<typeof Url>
     export const Id = z.string()
     export type Id = z.infer<typeof Id>
-
-    export const User = z.string()
+    export const User = z.string() // see comment in Url entity for the user type
     export type User = z.infer<typeof User>
 }
 

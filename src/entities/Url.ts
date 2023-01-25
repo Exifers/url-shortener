@@ -15,8 +15,9 @@ export class Url {
 
     /**
      * Keep track of which user created the url.
-     * In the real life it should be a foreign key to a User table.
-     * Here we just put the value of the Authorization header.
+     * In the real life it should be a foreign key to a User table, which a classic
+     * authentication scheme (session id, invalidation, etc.). Here we just put the
+     * value of the Authorization header.
      */
     @Property()
     author: string
