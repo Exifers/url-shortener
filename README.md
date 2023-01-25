@@ -28,3 +28,7 @@ curl -i -H "Authorization: hi" -X GET localhost:8000/urls/1
 ```
 curl -i -H "Authorization: hi" -X DELETE localhost:8000/urls/1
 ```
+
+Notes :
+- done in 2 hours
+- hexagonal architecture
